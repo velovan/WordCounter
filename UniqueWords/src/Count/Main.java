@@ -20,7 +20,7 @@ public class Main {
 	
 	public static void countWord(String fileName){
  	   try{
-			 File f = new File(fileName);
+	         File f = new File(fileName);
 	         ArrayList arr = new ArrayList();
 	         HashMap<String, Integer> listOfWords = new HashMap<String, Integer>(); 
 	         Scanner in = new Scanner(f);
