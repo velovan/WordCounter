@@ -14,8 +14,7 @@ import java.util.Set;
 public class Main {
 
 	public static void main(String[]args){
- 
-			countWord("resources/foo.txt");
+	   countWord("resources/foo.txt");
 	}
 	
 	public static void countWord(String fileName){
