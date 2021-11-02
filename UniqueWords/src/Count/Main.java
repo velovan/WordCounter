@@ -18,6 +18,7 @@ public class Main {
 	}
 	
 	public static void countWord(String fileName){
+		
  	   try{
 	         File f = new File(fileName);
 	         ArrayList arr = new ArrayList();
