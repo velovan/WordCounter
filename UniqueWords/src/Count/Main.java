@@ -38,9 +38,9 @@ public class Main {
 	         Set<Object> uniqueValues = new HashSet<Object>(listOfWords.values()); 
 	         System.out.println("The number of unique words: " + uniqueValues.size());
  	  } catch (FileNotFoundException ex) {
-          System.out.println("Unable to open file '" + fileName + "'");
+          System.out.println("Unable to open file !!!'" + fileName + "'");
       } catch (IOException ex) {
-          System.out.println("Error reading file '" + fileName + "'");
+          System.out.println("Error reading file !!!'" + fileName + "'");
       }
    }
 	
